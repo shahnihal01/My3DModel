@@ -11,13 +11,13 @@ export default function App() {
       // if(dance =="Freeze"){
       //    return(<FreezeModel position={[0.025, -0.9, 0]}/>)
       // }
-      if(dance =="BrooklynUprock"){
+      if(dance ==="BrooklynUprock"){
          return(<BrooklynUprockModel position={[0.55, -0.9, 0]}/>)
       }
-      if(dance =="BreakDance"){
+      if(dance ==="BreakDance"){
          return(<BreakDanceModel position={[-0.5, -0.9, 0]}/>)
       }
-      if(dance == ""){
+      if(dance === ""){
          return(<Model position={[0.025, -0.9, 0]}/>)
       }
    }
